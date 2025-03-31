@@ -1,0 +1,12 @@
+{"asctime": "2025-03-26 03:30:08,954", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: f6e15f48957dcb880e6d120e98637ef6", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:30:08,955", "levelname": "INFO", "message": "Forwarding request to Service 1", "request_id": "f6e15f48957dcb880e6d120e98637ef6", "source": "http://service2:5002/", "destination": "http://service1:5001/"}
+{"asctime": "2025-03-26 03:30:08,960", "levelname": "INFO", "message": "Response from Service 1: Hello from Service 2!", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:30:15,368", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: 8d9370ad8652894a350a7dfa509ba6c8", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:30:15,369", "levelname": "INFO", "message": "Already handled by Service 1", "request_id": "8d9370ad8652894a350a7dfa509ba6c8", "source": "http://service2:5002/", "destination": null}
+{"asctime": "2025-03-26 03:30:51,745", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: 6c598e24036b6e36d0171653aec9c52a", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:30:51,746", "levelname": "INFO", "message": "Already handled by Service 1", "request_id": "6c598e24036b6e36d0171653aec9c52a", "source": "http://service2:5002/", "destination": null}
+{"asctime": "2025-03-26 03:30:52,444", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: 8c94252c934ef3eed1da25dca460e38f", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:30:52,445", "levelname": "INFO", "message": "Already handled by Service 1", "request_id": "8c94252c934ef3eed1da25dca460e38f", "source": "http://service2:5002/", "destination": null}
+{"asctime": "2025-03-26 03:33:50,964", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: d4985a86134636b191e968103e5d74ce", "request_id": null, "source": null, "destination": null}
+{"asctime": "2025-03-26 03:33:50,964", "levelname": "INFO", "message": "Already handled by Service 1", "request_id": "d4985a86134636b191e968103e5d74ce", "source": "http://service2:5002/", "destination": null}
+{"asctime": "2025-03-26 03:34:56,946", "levelname": "INFO", "message": "Received request for Service 2 with Request ID: e40c3659199468e02257b268e237afe4", "request_id": null, "source": null, "destination": null}

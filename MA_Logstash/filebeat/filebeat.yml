@@ -1,0 +1,8 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /log/*.log
+    enabled: true
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
