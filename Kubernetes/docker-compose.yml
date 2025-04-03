@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  service1:
+    build:
+      context: .
+    container_name: service1
+    networks:
+      - app-network
+    expose:
+      - 5000
+    volumes:
+      - ./logs/service1:/app/logs
+
+networks:
+  app-network:
+    external: true
